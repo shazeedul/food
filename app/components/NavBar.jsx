@@ -17,7 +17,9 @@ export default function NavBar() {
           <button
             className="navbar-toggler"
             type="button"
+            // eslint-disable-next-line react/no-unknown-property
             data-bs-toggle="collapse"
+            // eslint-disable-next-line react/no-unknown-property
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
@@ -136,7 +138,9 @@ export default function NavBar() {
                 <a
                   className="common_btn"
                   href="#"
+                  // eslint-disable-next-line react/no-unknown-property
                   data-bs-toggle="modal"
+                  // eslint-disable-next-line react/no-unknown-property
                   data-bs-target="#staticBackdrop"
                 >
                   reservation
@@ -293,9 +297,11 @@ export default function NavBar() {
         <div
           className="modal fade"
           id="staticBackdrop"
+          // eslint-disable-next-line react/no-unknown-property
           data-bs-backdrop="static"
+          // eslint-disable-next-line react/no-unknown-property
           data-bs-keyboard="false"
-          tabindex="-1"
+          tabIndex="-1"
           aria-labelledby="staticBackdropLabel"
           aria-hidden="true"
         >
@@ -308,6 +314,7 @@ export default function NavBar() {
                 <button
                   type="button"
                   className="btn-close"
+                  // eslint-disable-next-line react/no-unknown-property
                   data-bs-dismiss="modal"
                   aria-label="Close"
                 ></button>

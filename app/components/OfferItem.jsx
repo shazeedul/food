@@ -4,7 +4,11 @@ export default function OfferItem() {
   return (
     <section className="fp__offer_item mt_100 xs_mt_70 pt_95 xs_pt_65 pb_150 xs_pb_120">
       <div className="container">
-        <div className="row wow fadeInUp" data-wow-duration="1s">
+        <div
+          className="row wow fadeInUp"
+          // eslint-disable-next-line react/no-unknown-property
+          data-wow-duration="1s"
+        >
           <div className="col-md-8 col-lg-7 col-xl-6 m-auto text-center">
             <div className="fp__section_heading mb_50">
               <h4>daily offer</h4>
@@ -27,7 +31,11 @@ export default function OfferItem() {
           </div>
         </div>
 
-        <div className="row offer_item_slider wow fadeInUp" data-wow-duration="1s">
+        <div
+          className="row offer_item_slider wow fadeInUp"
+          // eslint-disable-next-line react/no-unknown-property
+          data-wow-duration="1s"
+        >
           <div className="col-xl-4">
             <div className="fp__offer_item_single">
               <div className="img">
@@ -49,7 +57,9 @@ export default function OfferItem() {
                   <li>
                     <a
                       href="#"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-bs-toggle="modal"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-bs-target="#cartModal"
                     >
                       <i className="fas fa-shopping-basket"></i>
@@ -90,7 +100,9 @@ export default function OfferItem() {
                   <li>
                     <a
                       href="#"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-bs-toggle="modal"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-bs-target="#cartModal"
                     >
                       <i className="fas fa-shopping-basket"></i>
@@ -131,7 +143,9 @@ export default function OfferItem() {
                   <li>
                     <a
                       href="#"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-bs-toggle="modal"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-bs-target="#cartModal"
                     >
                       <i className="fas fa-shopping-basket"></i>
@@ -172,7 +186,9 @@ export default function OfferItem() {
                   <li>
                     <a
                       href="#"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-bs-toggle="modal"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-bs-target="#cartModal"
                     >
                       <i className="fas fa-shopping-basket"></i>

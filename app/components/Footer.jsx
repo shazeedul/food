@@ -4,7 +4,11 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer_overlay pt_100 xs_pt_70 pb_100 xs_pb_70">
-        <div className="container wow fadeInUp" data-wow-duration="1s">
+        <div
+          className="container wow fadeInUp"
+          // eslint-disable-next-line react/no-unknown-property
+          data-wow-duration="1s"
+        >
           <div className="row justify-content-between">
             <div className="col-lg-4 col-sm-8 col-md-6">
               <div className="fp__footer_content">

@@ -4,7 +4,11 @@ export default function WhyChoose() {
   return (
     <section className="fp__why_choose mt_100 xs_mt_70">
       <div className="container">
-        <div className="row wow fadeInUp" data-wow-duration="1s">
+        <div
+          className="row wow fadeInUp"
+          // eslint-disable-next-line react/no-unknown-property
+          data-wow-duration="1s"
+        >
           <div className="col-md-8 col-lg-7 col-xl-6 m-auto text-center">
             <div className="fp__section_heading mb_25">
               <h4>why choose us</h4>

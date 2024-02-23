@@ -6,7 +6,7 @@ export default function CartPopUp() {
       <div
         className="modal fade"
         id="cartModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-hidden="true"
       >
         <div className="modal-dialog modal-dialog-centered">
@@ -15,6 +15,7 @@ export default function CartPopUp() {
               <button
                 type="button"
                 className="btn-close"
+                // eslint-disable-next-line react/no-unknown-property
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
@@ -53,9 +54,9 @@ export default function CartPopUp() {
                       type="radio"
                       name="flexRadioDefault"
                       id="large"
-                      checked
+                      defaultChecked
                     />
-                    <label className="form-check-label" for="large">
+                    <label className="form-check-label" htmlFor="large">
                       large <span>+ $350</span>
                     </label>
                   </div>
@@ -66,7 +67,7 @@ export default function CartPopUp() {
                       name="flexRadioDefault"
                       id="medium"
                     />
-                    <label className="form-check-label" for="medium">
+                    <label className="form-check-label" htmlFor="medium">
                       medium <span>+ $250</span>
                     </label>
                   </div>
@@ -77,7 +78,7 @@ export default function CartPopUp() {
                       name="flexRadioDefault"
                       id="small"
                     />
-                    <label className="form-check-label" for="small">
+                    <label className="form-check-label" htmlFor="small">
                       small <span>+ $150</span>
                     </label>
                   </div>
@@ -94,7 +95,7 @@ export default function CartPopUp() {
                       value=""
                       id="coca-cola"
                     />
-                    <label className="form-check-label" for="coca-cola">
+                    <label className="form-check-label" htmlFor="coca-cola">
                       coca-cola <span>+ $10</span>
                     </label>
                   </div>
@@ -105,7 +106,7 @@ export default function CartPopUp() {
                       value=""
                       id="7up"
                     />
-                    <label className="form-check-label" for="7up">
+                    <label className="form-check-label" htmlFor="7up">
                       7up <span>+ $15</span>
                     </label>
                   </div>

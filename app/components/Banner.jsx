@@ -15,6 +15,7 @@ export default function Banner() {
                   <div className="col-xl-5 col-md-5 col-lg-5">
                     <div
                       className="fp__banner_img wow fadeInLeft"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-wow-duration="1s"
                     >
                       <div className="img">
@@ -32,6 +33,7 @@ export default function Banner() {
                   <div className="col-xl-5 col-md-7 col-lg-6">
                     <div
                       className="fp__banner_text wow fadeInRight"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-wow-duration="1s"
                     >
                       <h1>Different spice for a Different taste</h1>
@@ -61,6 +63,7 @@ export default function Banner() {
                   <div className="col-xl-5 col-md-5 col-lg-5">
                     <div
                       className="fp__banner_img wow fadeInLeft"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-wow-duration="1s"
                     >
                       <div className="img">
@@ -84,6 +87,7 @@ export default function Banner() {
                   <div className="col-xl-5 col-md-7 col-lg-6">
                     <div
                       className="fp__banner_text wow fadeInRight"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-wow-duration="1s"
                     >
                       <h1>Eat healthy. Stay healthy.</h1>
@@ -113,6 +117,7 @@ export default function Banner() {
                   <div className="col-xl-5 col-md-5 col-lg-5">
                     <div
                       className="fp__banner_img wow fadeInLeft"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-wow-duration="1s"
                     >
                       <div className="img">
@@ -136,6 +141,7 @@ export default function Banner() {
                   <div className="col-xl-5 col-md-7 col-lg-6">
                     <div
                       className="fp__banner_text wow fadeInRight"
+                      // eslint-disable-next-line react/no-unknown-property
                       data-wow-duration="1s"
                     >
                       <h1>Great food. Tastes good.</h1>
