@@ -3,7 +3,7 @@ import "./../public/css/all.min.css";
 import "./../public/css/animate.css";
 import "./../public/css/responsive.css";
 import "./../public/css/nice-select.css";
-import "./../public/css/slick.css";
+// import "./../public/css/slick.css";
 import "./../public/css/spacing.css";
 import "./../public/css/venobox.min.css";
 import "./../public/css/jquery.exzoom.css";
@@ -16,7 +16,7 @@ import CartPopUp from "./components/CartPopUp";
 import Footer from "./components/Footer";
 import ScrollTop from "./components/ScrollTop";
 import MenuItem from "./components/MenuItem";
-import Slider from "./components/Slider";
+import SlideBar from "./components/SlideBar";
 import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
 import Counter from "./components/Counter";
@@ -32,7 +32,7 @@ export default function Home() {
       <OfferItem />
       <CartPopUp />
       <MenuItem />
-      <Slider />
+      <SlideBar />
       <Team />
       <Counter />
       <Testimonial />

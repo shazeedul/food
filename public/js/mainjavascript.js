@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   //=======BANNER SLIDER======
-  $(".banner_slider").slick({
+  document.querySelectorAll(".banner_slider").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   //=======OFFER ITEM SLIDER======
-  $(".offer_item_slider").slick({
+  document.querySelectorAll(".offer_item_slider").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
@@ -349,7 +349,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   //=======OFFER ITEM SLIDER======
-  documnet.querySelectorAll(".blog_det_slider").slick({
+  document.querySelectorAll(".blog_det_slider").slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
@@ -392,7 +392,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   //=======OFFER ITEM SLIDER======
-  documnet.querySelectorAll(".related_product_slider").slick({
+  document.querySelectorAll(".related_product_slider").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
