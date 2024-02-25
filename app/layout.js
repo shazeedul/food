@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
       <Script src="/js/jquery-3.6.0.min.js" />
       <Script src="/js/bootstrap.bundle.min.js" />
       <Script src="/js/Font-Awesome.js" />
-      {/* <Script src="/js/slick.min.js" /> */}
       <Script src="/js/isotope.pkgd.min.js" />
       <Script src="/js/simplyCountdown.js" />
       <Script src="/js/venobox.min.js" />

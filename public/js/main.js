@@ -226,7 +226,7 @@ $(function () {
   // });
 
   //=========COUNTER JS=========
-  $(".counter").countUp();
+  // $(".counter").countUp();
 
   //=======OFFER ITEM SLIDER======
   // $(".testi_slider").slick({

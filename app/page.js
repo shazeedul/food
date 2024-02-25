@@ -3,7 +3,6 @@ import "./../public/css/all.min.css";
 import "./../public/css/animate.css";
 import "./../public/css/responsive.css";
 import "./../public/css/nice-select.css";
-// import "./../public/css/slick.css";
 import "./../public/css/spacing.css";
 import "./../public/css/venobox.min.css";
 import "./../public/css/jquery.exzoom.css";

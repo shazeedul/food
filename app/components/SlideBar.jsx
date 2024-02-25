@@ -2,6 +2,26 @@
 import Slider from "react-slick";
 
 export default function SlideBar() {
+  function SampleNextArrow(props) {
+    const { onClick } = props;
+    return (
+      <>
+        <i
+          className={`far fa-long-arrow-right nextArrow`}
+          onClick={onClick}
+        ></i>
+      </>
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { onClick } = props;
+    return (
+      <>
+        <i className={`far fa-long-arrow-left prevArrow`} onClick={onClick}></i>
+      </>
+    );
+  }
   var settings = {
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -9,8 +29,8 @@ export default function SlideBar() {
     autoplaySpeed: 4000,
     dots: false,
     arrows: true,
-    // nextArrow: `<i class="far fa-long-arrow-right nextArrow"></i>`,
-    // prevArrow: `<i class="far fa-long-arrow-left prevArrow"></i>`,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1400,

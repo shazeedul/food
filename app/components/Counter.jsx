@@ -1,3 +1,7 @@
+"use client";
+
+import CountUp from "react-countup";
+
 export default function Counter() {
   return (
     <section
@@ -15,7 +19,13 @@ export default function Counter() {
               <div className="fp__single_counter">
                 <i className="fas fa-burger-soda"></i>
                 <div className="text">
-                  <h2 className="counter">85,000</h2>
+                  <CountUp end={85000} decimal="," delay={5}>
+                    {({ countUpRef }) => (
+                      <div>
+                        <h2 className="counter" ref={countUpRef} />
+                      </div>
+                    )}
+                  </CountUp>
                   <p>customer serve</p>
                 </div>
               </div>
@@ -28,7 +38,13 @@ export default function Counter() {
               <div className="fp__single_counter">
                 <i className="fal fa-hat-chef"></i>
                 <div className="text">
-                  <h2 className="counter">120</h2>
+                  <CountUp end={120} decimal="," delay={5}>
+                    {({ countUpRef }) => (
+                      <div>
+                        <h2 className="counter" ref={countUpRef} />
+                      </div>
+                    )}
+                  </CountUp>
                   <p>experience chef</p>
                 </div>
               </div>
@@ -41,7 +57,13 @@ export default function Counter() {
               <div className="fp__single_counter">
                 <i className="far fa-handshake"></i>
                 <div className="text">
-                  <h2 className="counter">72,000</h2>
+                  <CountUp end={72000} decimal="," delay={5}>
+                    {({ countUpRef }) => (
+                      <div>
+                        <h2 className="counter" ref={countUpRef} />
+                      </div>
+                    )}
+                  </CountUp>
                   <p>happy customer</p>
                 </div>
               </div>
@@ -54,7 +76,13 @@ export default function Counter() {
               <div className="fp__single_counter">
                 <i className="far fa-trophy"></i>
                 <div className="text">
-                  <h2 className="counter">30</h2>
+                  <CountUp end={30} decimal="," delay={5}>
+                    {({ countUpRef }) => (
+                      <div>
+                        <h2 className="counter" ref={countUpRef} />
+                      </div>
+                    )}
+                  </CountUp>
                   <p>winning award</p>
                 </div>
               </div>
