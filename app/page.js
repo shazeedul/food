@@ -5,7 +5,6 @@ import "./../public/css/responsive.css";
 import "./../public/css/nice-select.css";
 import "./../public/css/spacing.css";
 import "./../public/css/venobox.min.css";
-import "./../public/css/jquery.exzoom.css";
 import TopBar from "./components/TopBar";
 import NavBar from "./components/NavBar";
 import Banner from "./components/Banner";

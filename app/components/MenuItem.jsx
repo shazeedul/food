@@ -61,9 +61,9 @@ export default function MenuItem() {
               </button>
               <button
                 // eslint-disable-next-line react/no-unknown-property
-                data-filter=".dresserts"
+                data-filter=".desserts"
               >
-                dresserts
+                desserts
               </button>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function MenuItem() {
 
         <div className="row grid">
           <div
-            className="col-xl-3 col-sm-6 col-lg-4 burger pizza wow fadeInUp"
+            className="col-xl-3 col-sm-6 col-lg-4 burger wow fadeInUp"
             // eslint-disable-next-line react/no-unknown-property
             data-wow-duration="1s"
           >
@@ -85,7 +85,7 @@ export default function MenuItem() {
                   height={100}
                 />
                 <a className="category" href="#">
-                  Biryani
+                  Burger
                 </a>
               </div>
               <div className="fp__menu_item_text">
@@ -98,7 +98,7 @@ export default function MenuItem() {
                   <span>10</span>
                 </p>
                 <a className="title" href="menu_details.html">
-                  Hyderabadi biryani
+                  Large Burger
                 </a>
                 <h5 className="price">$70.00</h5>
                 <ul className="d-flex flex-wrap justify-content-center">
@@ -128,7 +128,7 @@ export default function MenuItem() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-sm-6 col-lg-4  chicken dresserts wow fadeInUp"
+            className="col-xl-3 col-sm-6 col-lg-4  chicken wow fadeInUp"
             // eslint-disable-next-line react/no-unknown-property
             data-wow-duration="1s"
           >
@@ -187,7 +187,7 @@ export default function MenuItem() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-sm-6 col-lg-4  chicken dresserts wow fadeInUp"
+            className="col-xl-3 col-sm-6 col-lg-4  chicken wow fadeInUp"
             // eslint-disable-next-line react/no-unknown-property
             data-wow-duration="1s"
           >
@@ -244,7 +244,7 @@ export default function MenuItem() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-sm-6 col-lg-4  burger pizza wow fadeInUp"
+            className="col-xl-3 col-sm-6 col-lg-4  pizza wow fadeInUp"
             // eslint-disable-next-line react/no-unknown-property
             data-wow-duration="1s"
           >
@@ -258,7 +258,7 @@ export default function MenuItem() {
                   height={100}
                 />
                 <a className="category" href="#">
-                  chicken
+                  pizza
                 </a>
               </div>
               <div className="fp__menu_item_text">
@@ -271,7 +271,7 @@ export default function MenuItem() {
                   <span>74</span>
                 </p>
                 <a className="title" href="menu_details.html">
-                  chicken Masala
+                  pizza
                 </a>
                 <h5 className="price">
                   $80.00 <del>90.00</del>
@@ -303,7 +303,7 @@ export default function MenuItem() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-sm-6 col-lg-4  chicken dresserts wow fadeInUp"
+            className="col-xl-3 col-sm-6 col-lg-4  desserts wow fadeInUp"
             // eslint-disable-next-line react/no-unknown-property
             data-wow-duration="1s"
           >
@@ -317,7 +317,7 @@ export default function MenuItem() {
                   height={100}
                 />
                 <a className="category" href="#">
-                  chicken
+                  desserts
                 </a>
               </div>
               <div className="fp__menu_item_text">
@@ -330,7 +330,7 @@ export default function MenuItem() {
                   <span>120</span>
                 </p>
                 <a className="title" href="menu_details.html">
-                  chicken Masala
+                  salad
                 </a>
                 <h5 className="price">
                   $80.00 <del>90.00</del>
@@ -362,7 +362,7 @@ export default function MenuItem() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-sm-6 col-lg-4  burger pizza wow fadeInUp"
+            className="col-xl-3 col-sm-6 col-lg-4  chicken wow fadeInUp"
             // eslint-disable-next-line react/no-unknown-property
             data-wow-duration="1s"
           >
@@ -419,7 +419,7 @@ export default function MenuItem() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-sm-6 col-lg-4  chicken dresserts wow fadeInUp"
+            className="col-xl-3 col-sm-6 col-lg-4  chicken wow fadeInUp"
             // eslint-disable-next-line react/no-unknown-property
             data-wow-duration="1s"
           >
@@ -476,7 +476,7 @@ export default function MenuItem() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-sm-6 col-lg-4  burger pizza wow fadeInUp"
+            className="col-xl-3 col-sm-6 col-lg-4  chicken wow fadeInUp"
             // eslint-disable-next-line react/no-unknown-property
             data-wow-duration="1s"
           >

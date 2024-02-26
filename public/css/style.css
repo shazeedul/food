@@ -1068,6 +1068,10 @@ button {
     position: relative;
 }
 
+.slick-dots li button::before {
+    display: none;
+}
+
 .offer_item_slider .slick-dots li.slick-active button,
 .fp__blog_det_slider .slick-dots li.slick-active button,
 .fp__banner .slick-dots li.slick-active button,

@@ -1,6 +1,30 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import Select from "react-select";
 
 export default function NavBar() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true); // Set mounted to true when component mounts
+  }, []);
+
+  const timeOptions = [
+    { value: "8-9", label: "08.00 am to 09.00 am" },
+    { value: "10-11", label: "10.00 am to 11.00 am" },
+    { value: "12-13", label: "12.00 pm to 01.00 pm" },
+    { value: "14-15", label: "02.00 pm to 03.00 pm" },
+    { value: "16-17", label: "04.00 pm to 05.00 pm" },
+  ];
+  const peopleOptions = [
+    { value: "1", label: "1 person" },
+    { value: "2", label: "2 person" },
+    { value: "3", label: "3 person" },
+    { value: "4", label: "4 person" },
+    { value: "5", label: "5 person" },
+  ];
   return (
     <>
       <nav className="navbar navbar-expand-lg main_menu">
@@ -332,22 +356,22 @@ export default function NavBar() {
                     placeholder="Phone"
                   />
                   <input className="reservation_input" type="date" />
-                  <select className="reservation_input" id="select_js">
-                    <option value="">select time</option>
-                    <option value="">08.00 am to 09.00 am</option>
-                    <option value="">10.00 am to 11.00 am</option>
-                    <option value="">12.00 pm to 01.00 pm</option>
-                    <option value="">02.00 pm to 03.00 pm</option>
-                    <option value="">04.00 pm to 05.00 pm</option>
-                  </select>
-                  <select className="reservation_input" id="select_js2">
-                    <option value="">select person</option>
-                    <option value="">1 person</option>
-                    <option value="">2 person</option>
-                    <option value="">3 person</option>
-                    <option value="">4 person</option>
-                    <option value="">5 person</option>
-                  </select>
+                  {mounted && (
+                    <>
+                      <Select
+                        className="reservation_input"
+                        options={timeOptions}
+                        placeholder="Select Time"
+                        id="select-time"
+                      />
+                      <Select
+                        className="reservation_input"
+                        options={peopleOptions}
+                        placeholder="Select People"
+                        id="select-people"
+                      />
+                    </>
+                  )}
                   <button type="submit">book table</button>
                 </form>
               </div>

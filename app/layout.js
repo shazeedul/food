@@ -21,20 +21,22 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
       </Head>
       <body className={inter.className}>{children}</body>
-      <Script src="/js/jquery-3.6.0.min.js" />
+      {/* <Script src="/js/jquery-3.6.0.min.js" /> */}
       <Script src="/js/bootstrap.bundle.min.js" />
       <Script src="/js/Font-Awesome.js" />
       <Script src="/js/isotope.pkgd.min.js" />
-      <Script src="/js/simplyCountdown.js" />
+      {/* <Script src="/js/simplyCountdown.js" /> */}
       <Script src="/js/venobox.min.js" />
-      <Script src="/js/sticky_sidebar.js" />
+      <Script type="module" src="/js/sticky_sidebar.js" />
       <Script src="/js/wow.min.js" />
-      <Script src="/js/jquery.waypoints.min.js" />
-      <Script src="/js/jquery.countup.min.js" />
-      <Script src="/js/jquery.nice-select.min.js" />
-      <Script src="/js/jquery.exzoom.js" />
+      {/* <Script src="/js/jquery.waypoints.min.js" /> */}
+      {/* <Script src="/js/jquery.countup.min.js" /> */}
+      {/* <Script src="/js/jquery.nice-select.min.js" /> */}
+      {/* <Script src="/js/jquery.exzoom.js" /> */}
 
       <Script src="/js/main.js" />
+      <Script src="/js/scroll-up.js" />
+      <Script src="/js/isotop.js" />
     </html>
   );
 }
