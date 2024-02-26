@@ -1,12 +1,19 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import "./../public/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./../public/css/all.min.css";
+import "./../public/css/animate.css";
+import "./../public/css/responsive.css";
+import "./../public/css/nice-select.css";
+import "./../public/css/spacing.css";
+import "./../public/css/venobox.min.css";
 import Head from "next/head";
 import Script from "next/script";
-
-const inter = Inter({ subsets: ["latin"] });
+import TopBar from "./components/TopBar";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import ScrollTop from "./components/ScrollTop";
 
 export const metadata = {
   title: "FoodPark || Restaurant Template",
@@ -20,7 +27,6 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </Head>
-      <body className={inter.className}>{children}</body>
       {/* <Script src="/js/jquery-3.6.0.min.js" /> */}
       <Script src="/js/bootstrap.bundle.min.js" />
       <Script src="/js/Font-Awesome.js" />
@@ -36,7 +42,13 @@ export default function RootLayout({ children }) {
 
       <Script src="/js/main.js" />
       <Script src="/js/scroll-up.js" />
-      <Script src="/js/isotop.js" />
+      <body className={``}>
+        <TopBar />
+        <NavBar />
+        {children}
+        <ScrollTop />
+        <Footer />
+      </body>
     </html>
   );
 }
