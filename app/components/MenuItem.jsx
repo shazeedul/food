@@ -24,7 +24,7 @@ export default function MenuItem() {
               </span>
               <p>
                 Objectively pontificate quality models before intuitive
-                information. Dramatically recaptiualize multifunctional
+                information. Dramatically recapitalize multifunctional
                 materials.
               </p>
             </div>
@@ -389,7 +389,7 @@ export default function MenuItem() {
                   <span>514</span>
                 </p>
                 <a className="title" href="menu_details.html">
-                  Hyderabadi biryani
+                  {`Hyderabad's biryani`}
                 </a>
                 <h5 className="price">$70.00</h5>
                 <ul className="d-flex flex-wrap justify-content-center">

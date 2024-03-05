@@ -2,7 +2,6 @@ import Banner from "./components/Banner";
 import WhyChoose from "./components/WhyChoose";
 import OfferItem from "./components/OfferItem";
 import CartPopUp from "./components/CartPopUp";
-import ScrollTop from "./components/ScrollTop";
 import MenuItem from "./components/MenuItem";
 import SlideBar from "./components/SlideBar";
 import Team from "./components/Team";
@@ -24,7 +23,6 @@ export default function Home() {
       <Counter />
       <Testimonial />
       <BlogHome />
-      <ScrollTop />
       <Script src="/js/isotop.js" />
     </>
   );
